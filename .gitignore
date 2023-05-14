@@ -1,2 +1,3 @@
 volumes
 .env
+app/__pycache__
