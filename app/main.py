@@ -69,7 +69,7 @@ def handle_message(event):
         # 性別選択用メッセージ
         messenger.reply(
             [
-                TextSendMessage(text = "わかりました！よりあなたが気に入りそうなお土産をおすすめするために、あなたについて教えてください"),
+                TextSendMessage(text = "わかりました！よりあなたが気に入りそうな新千歳空港のお土産をおすすめするために、あなたについて教えてください"),
                 messenger.quick_reply(
                 text = "まず、あなたの性別を教えてください",
                 items = [
@@ -114,7 +114,7 @@ def handle_message(event):
             # おすすめ結果を返信するメッセージ
             messenger.reply(
                 [
-                    TextSendMessage(text = f"ありがとうございます！\n{user.age}{user.gender}がよく検索しているお土産は以下になります"),
+                    TextSendMessage(text = f"ありがとうございます！\n{user.age}{user.gender}がよく検索している新千歳空港のお土産は以下になります"),
                     FlexSendMessage(alt_text = "おすすめのお土産3件", contents = {"type": "carousel", "contents": [messenger.flex_message(), messenger.flex_message(), messenger.flex_message()]}),
                     TextSendMessage(text = "またおすすめのお土産が知りたくなったら、「おすすめのお土産教えて」をタップしてみてくださいね！")
                 ]

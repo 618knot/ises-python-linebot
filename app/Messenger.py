@@ -36,13 +36,13 @@ class Messenger:
             "type": "bubble",
             "hero": {
                 "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                "url": "https://image.rakuten.co.jp/hokkaido-omiyage/cabinet/meika3/kankou_bs2021.jpg",
                 "size": "full",
                 "aspectRatio": "20:13",
                 "aspectMode": "cover",
                 "action": {
                 "type": "uri",
-                "uri": "http://linecorp.com/"
+                "uri": "https://www.new-chitose-airport.jp/ja/spend/shop/s20.html"
                 }
             },
             "body": {
@@ -51,13 +51,13 @@ class Messenger:
                 "contents": [
                 {
                     "type": "text",
-                    "text": "ほげほげ",
+                    "text": "白いブラックサンダー",
                     "weight": "bold",
                     "size": "xl"
                 },
                 {
                     "type": "text",
-                    "text": "￥999,999,999"
+                    "text": "￥999,999,999(税込)"
                 },
                 {
                     "type": "text",
@@ -79,7 +79,7 @@ class Messenger:
                     "action": {
                     "type": "uri",
                     "label": "リンクはこちら",
-                    "uri": "https://example.com"
+                    "uri": "https://www.new-chitose-airport.jp/ja/spend/shop/s20.html"
                     }
                 }
                 ],
